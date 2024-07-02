@@ -17,7 +17,7 @@ args = parser.parse_args()
 file_maker = args.file
 g = (platform.uname())
 source_system_id = g[0]+" "+ g[1]
-print (source_system_id)
+print(source_system_id)
 pgconn = psycopg2.connect(
     host= '0.0.0.0',
     user = 'postgres',
